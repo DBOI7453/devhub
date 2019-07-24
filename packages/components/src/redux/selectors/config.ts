@@ -1,7 +1,6 @@
 import { createSelector } from 'reselect'
 
-import { constants, isNight } from '@devhub/core'
-import { loadTheme } from '../../styles/utils'
+import { constants, isNight, loadTheme } from '@devhub/core'
 import { isBigEnoughForMultiColumnView } from '../../utils/helpers/shared'
 import { RootState } from '../types'
 

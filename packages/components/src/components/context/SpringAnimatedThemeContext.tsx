@@ -1,9 +1,7 @@
 import React, { useContext } from 'react'
 
-import { ThemeColors } from '@devhub/core'
+import { defaultTheme, pickThemeColors, ThemeColors } from '@devhub/core'
 import { useSpring, UseSpringProps } from 'react-spring/native'
-import { defaultTheme } from '../../styles/utils'
-import { pickThemeColors } from '../../utils/helpers/theme'
 import { useThemeCallback } from './ThemeContext'
 
 export interface SpringAnimatedThemeProviderProps {
